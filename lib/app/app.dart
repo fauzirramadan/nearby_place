@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       navigatorKey: navKey,
       title: 'Nearby Places',
       theme: ThemeData(
+        useMaterial3: true,
         primarySwatch: Colors.deepPurple,
       ),
       home: const HomePage(),
