@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       scaffoldMessengerKey: notifKey,
       navigatorKey: navKey,
       title: 'Nearby Places',
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         primarySwatch: Colors.deepPurple,
       ),
-      home: const HomePage(),
+      home: HomePage(),
     );
   }
 }
